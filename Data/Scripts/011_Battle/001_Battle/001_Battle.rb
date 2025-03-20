@@ -92,7 +92,6 @@ class Battle
   attr_accessor :moldBreaker      # True if Mold Breaker applies
   attr_reader   :struggle         # The Struggle move
   attr_accessor :foreground       # Filename fragment used for foreground graphics
-  attr_accessor :doublebattle     # DELETEME: Double battle flag
 
   def pbRandom(x); return rand(x); end
 
@@ -185,7 +184,6 @@ class Battle
     @mega_rings = []
     GameData::Item.each { |item| @mega_rings.push(item.id) if item.has_flag?("MegaRing") }
     @foreground        = ""
-    @doublebattle = false
   end
 
   #=============================================================================
@@ -538,7 +536,6 @@ class Battle
         return [1]
       when 2   # 2v2 double
         return [[3, 1], [2, 0], [1, 3], [0, 2]][idxBattler]
-        @doublebattle = true
       when 3   # 2v3
         return [[5, 3, 1], [2, 0], [3, 1, 5]][idxBattler] if idxBattler < 3
         return [0, 2]
