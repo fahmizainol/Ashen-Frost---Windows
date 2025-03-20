@@ -1,0 +1,9 @@
+Name = Level Based Mixed EV System and Allocator
+Version = 1.0
+Website = https://reliccastle.com/resources/1241/
+Optional = Essentials Deluxe,1.0
+Optional = EVs and IVs in Summary v20,1.0
+Optional = BW Summary Screen,1.0
+Optional = Customizable Level Cap,1.0
+Optional = Tip Cards,1.2
+Credits =DemICE

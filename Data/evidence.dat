@@ -1,0 +1,346 @@
+{©:TESTDAY{
+:	NameI"Palermo's Testimony:ET:	Case[i:UseI"Meeting Palermo.;T:DescriptionI"<The waitress was handed the cheque during the ceremony.;T:TestimonyT:TESTWAIT1{
+;I"Cathy's Testimony;T;[i;	I"Chatting with Cathy.;T;
+I"YCathy took the cheque to the manager's office. She's never run into trouble at work.;T;T:TESTWAIT2{
+;I"Cathy's Testimony II;T;[i;	I"Questioning Cathy further.;T;
+I"GCathy was at work when the guest was killed in the room above her.;T;T:TESTCRIM1{
+;I"Mordecai's Testimony;T;[i;	I"Chatting with Mordecai.;T;
+I"dThe mafia tried to pressure the manager to pay compensation after a gangster died in the hotel.;T;T:TESTMANA{
+;I"Manager's Testimony;T;[i;	I"Chatting with the Manager.;T;
+I"UThe cheque was to be kept in the safe overnight. He handed it to Cathy on stage.;T;T:CLUESAFE{
+;I"Safe Clue;T;[i;	I"Inspecting the Hotel Safe.;T;
+I"8An indestructible safe. It was somehow broken into.;T;F:CLUERECEIPT{
+;I"Receipt Clue;T;[i;	I"Searching the trash.;T;
+I"*A receipt for an indestructible safe.;T;F:CLUETABLE{
+;I"Table Clue;T;[i;	I"Inspecting the table.;T;
+I"AAn ugly table from the guest room. It has an aura of menace.;T;F:TESTCRIM2{
+;I"Mordecai's Testimony;T;[i;	I"Chatting with Mordecai.;T;
+I"VMordecai stumbled across the frozen puddle that once was Mlle. Duchampe's statue.;T;T:TESTRICH{
+;I"Richler's Testimony;T;[i;	I"!Interrogating Mlle. Richler.;T;
+I"JDuchampe seems to have some issue with Philippe according to Richler.;T;T:CLUEPHIL{
+;I"Philippe Clue;T;[i;	I"Talking to Mlle. Richler.;T;
+I";Philippe and Richler are in a very happy relationship.;T;T:CLUEPHOTO{
+;I"Photo Clue;T;[i;	I"Unlocking Duchampe's Safe.;T;
+I"FDuchampe has an intimate picture of her and Philippe in her safe.;T;F:CLUETORCH{
+;I"Blowtorch;T;[ii;	I"Exploring the Greenhouse.;T;
+I";A suspicious blowtorch. It is still warm to the touch.;T;F:CLUERING{
+;I"Philippe's Testimony;T;[i;	I"Chatting with Philippe.;T;
+I"tPhilippe was once in a relationship with Duchampe. He now has engagement rings and plans to propose to Richler.;T;T:CLUEFIGHT{
+;I"Struggle Clue;T;[i;	I"Inspecting the Pump Room.;T;
+I"bIt looks as though two people fought in the pump room. They knocked something into the water.;T;F:CLUEMONTY{
+;I"Monty's Description;T;[i;	I"Taking on Luciano's job.;T;
+I"{Missing for a week, Monty is a gangster who works at the spa at the Eastgate Mall. He has a brother called the Python.;T;T:TESTLUE{
+;I"Lue's Testimony;T;[i;	I"Harassing Lue.;T;
+I"šThe mafia is looking into the death of Ivy Thorne. She is believed to be killed by her boyfriend. They used to live at a penthouse in the Office District.;T;T:TESTPYTH{
+;I"Python's Testimony;T;[i;	I"Talking to the Python.;T;
+I"lMonty is friends with the manager of the Serenity Marine Facility, according to his brother the Python.;T;T:TESTSCOT{
+;I"Scottsborough's Testimony;T;[ii;	I"Talking to Scottsborough.;T;
+I"APatent 251730 is a cure for rabies designed by Serenity Inc.;T;T:TESTPENT{
+;I"House Lady's Testimony;T;[i;	I"Talking to the House Lady.;T;
+I"UThe owner bought the haunted penthouse from a nice man. He might be a biologist.;T;T:TESTGHOST{
+;I"Ghostly Lady's Testimony;T;[i;	I"!Talking to the Ghostly Lady.;T;
+I"7The lady was killed by a man who she was close to.;T;T:CLUEBOX{
+;I"Box Clue;T;[ii;	I"!Investigating the Penthouse.;T;
+I"7The present box held a gift PokÃ©mon at one point.;T;F:CLUEPATENT{
+;I"Patent 251730 Clue;T;[i;	I"!Investigating the Penthouse.;T;
+I"sThe former owner of the penthouse was going through the motions of filing a patent with Felicia Scottsborough.;T;F:TESTPYTH2{
+;I"Python's Request;T;[i	;	I"Talking to the Python.;T;
+I"ƒThe Python wishes to know where his estranged brother lived. He will wait at the book store in the Casino District in the meantime.;T;T:CLUELOUI{
+;I"Rosewell Photo;T;[i	;	I"&Investigating Rosewell's Gallery.;T;
+I"MA picture of the missing philanthropist Louis Rosewell and his daughter.;T;F:TESTCHAR2{
+;I"Charley's Testimony;T;[i	;	I"Talking to the Python.;T;
+I"~The most expensive pair of engagement rings in Charley's store was never returned. Monty was supposed to bring them back.;T;T:TESTPHIL2{
+;I"Philippe's Testimony;T;[i	;	I"Talking to Philippe.;T;
+I"SPhilippe returned the rings to the old friend who gave him the money for them.;T;T:TESTPENT2{
+;I"House Lady's Testimony II;T;[i	;	I"Talking to the House Lady.;T;
+I"4Monty's landlord has an office in Blizzard Bay.;T;T:TESTHART{
+;I"Hart's Testimony;T;[i	;	I"Questioning Hart.;T;
+I"IMonty's landlady would know him, and have an idea of where he lived.;T;T:SMELLAND{
+;I"Landlady Smell;T;[i	;	I"Truffles' investigating.;T;
+I"QTruffles knows the smell of the Landlady now. She's in Spadina's Restaurant.;T;T:TESTLAND{
+;I"Landlady's Directions;T;[i	;	I"!Talking to Monty's Landlady.;T;
+I"wDirections to Monty's apartment. He lived in the brown condo to in the northwestern corner of the Winter Carnival.;T;T:CLUERINGS2{
+;I"Monty's Rings;T;[i	i
+;	I"!Searching Monty's Apartment.;T;
+I"bThe expensive engagement rings were in Monty's apartment. You can give them back to Philippe!;T;F:CLUEBOARD{
+;I"Theory Board;T;[i	i
+;	I"!Searching Monty's Apartment.;T;
+I"JMonty was keeping tabs on many key figures connected to the Lonardos.;T;F:CLUELETTER{
+;I"Monty's Letter;T;[i	i
+;	I"!Searching Monty's Apartment.;T;
+I"9A confession letter written by Monty, 'I am afraid.';T;F:TESTLUCI{
+;I"Luciano's Testimony;T;[i
+;	I"Talking to Luciano.;T;
+I"HLuciano believes either his food or his medicine is being poisoned.;T;T:TESTDOCT{
+;I"Doctor's Testimony;T;[i
+;	I"Chatting with a Doctor.;T;
+I"OThe hospital's supply of special medications comes from the city pharmacy.;T;T:TESTANNA{
+;I"Biologist's Testimony;T;[i
+;	I"Inquiring with Anna.;T;
+I"PLuciano is being given multiple medicines that shouldn't be taken together.;T;T:CLUESALT{
+;I"Salt Clue;T;[i
+;	I"Getting salt.;T;
+I"YA salt shaker filled with white crystals. That is what you'd expect though... right?;T;F:TESTPAL{
+;I"Mr. Palermo's Testimony;T;[i;	I"Talking with Mr. Palermo.;T;
+I"SLucile left her father at the Retirement Home. The nurses won't let him leave.;T;T:TESTCORD{
+;I"Cordelia's Request;T;[i;	I"Talking with Cordelia.;T;
+I"`Cordelia wants three different files from Olde Riverviewe's Archives: 3467, 6970, and 5923.;T;T:TESTNIECE{
+;I"Niece's Testimony;T;[i;	I"Talking with your niece.;T;
+I"EThe kids were playing hide-and-go-seek when the key went missing;T;T:TESTCOUSIN{
+;I"Cousin's Testimony;T;[i;	I"Talking with your cousin.;T;
+I"oSylvan's job is to clear the paths to prevent slipping and falling. He prefers to spend his time drinking.;T;T:TESTSYLVAN{
+;I"Sylvan's Testimony;T;[i;	I"Talking with Sylvan.;T;
+I"[Sylvan witnessed Cousin I slip and fall on the ice, while a woman ran to the Windmill.;T;T:
+TESTI{
+;I"I's Testimony;T;[i;	I"Talking with Silvester.;T;
+I"\Cousin I witnessed a tourist woman bump into a strange, blond man, before blacking out.;T;T:CLUEJOURNAL{
+;I"Lucile's Diary;T;[i;	I"Reading Lucile's diary.;T;
+I"<Lucile Lonardo was in love with Raphael before he died.;T;F:CLUELAFAYETTE{
+;I"File 3467;T;[ii;	I"Getting file 3467.;T;
+I"NLike all families, the Lafayettes had their share of good and bad people.;T;F:CLUESILVA{
+;I"File 6970;T;[ii;	I"Getting file 6970.;T;
+I"{Silva Lafayette, Chief of Police, was removed from office by a child after attempting to bring eternal summer to Riverview.;T;F:IDEACORD{
+;I"Cordelia's Idea;T;[i;	I"Chatting with Cordelia.;T;
+I"`The Resistance should find a way to block the smuggling tunnel beneath the Glacial Theatre.;T;T:TESTSEAN{
+;I"Sean's Request;T;[i;	I"Chatting with Sean.;T;
+I"bSomeone has been sabotaging the Glacial Theatre's latest production, but the show must go on.;T;T:TESTSEANII{
+;I"Sean's Reasoning;T;[i;	I"Eavesdropping on Sean.;T;
+I"YAccording to Sean, Priya is the leading actress because her fans boost ticket sales.;T;T:TESTPRIY{
+;I"Priya's Testimony;T;[i;	I"Talking with Priya.;T;
+I"\Priya was on stage performing a soliloquy when she was nearly hit by a falling sandbag.;T;T:CLUEPRIY{
+;I"Priya's Fear;T;[i;	I"Confronting Priya.;T;
+I"YPriya is afraid of what might happen next, and has been trying to get herself fired.;T;T:TESTSPURL{
+;I"Spurl's Testimony;T;[i;	I"Talking with Spurl.;T;
+I"gAngeline is a far better actor than Priya. But, all the actors are bad, so that's not saying much.;T;T:TESTANGE{
+;I"Angeline's Testimony;T;[i;	I"Talking with Angeline.;T;
+I"‡Angeline is friends with a renowned fashion designer, Sammy. He has a store in the Fashion District. The golden scissors belong to him.;T;T:CLUESCISSORS{
+;I"Scissors Clue;T;[i;	I"Braving the catwalk.;T;
+I"bA pair of golden scissors were left on the Theatre Catwalk, next to a severed length of rope.;T;F:CLUESANDBAG{
+;I"Sandbag Clue;T;[i;	I"Investigating the stage.;T;
+I";A fallen sandbag. It almost hit Priya during the show.;T;F:TESTANGEII{
+;I"Angeline's Testimony II;T;[i;	I"Confronting Angeline.;T;
+I"NAccording to Angeline, Priya is over-dramatic and often skips rehearsals.;T;T:TESTSAM{
+;I"Sammy's Testimony;T;[i;	I"Talking with Sammy.;T;
+I"$Sammy is friends with Angeline.;T;T:TESTFRAN{
+;I"Francis' Testimony;T;[i;	I"Talking with Francis.;T;
+I";Francis thinks that someone might be out to get Priya.;T;T:CLUEEMBLEM{
+;I"Lonardo Emblem;T;[i;	I"Investigating the Apiary.;T;
+I"*A coin with the Lonardo emblem on it.;T;F:TESTWORKER{
+;I"Worker's Testimony;T;[i;	I"Talking with Worker Bee.;T;
+I";Combee and Vespiquen can be subdued by inhaling smoke.;T;T:TESTKEEPER{
+;I"Keeper's Testimony;T;[i;	I"Talking with Keeper Bee.;T;
+I"jOne of the beekeepers noticed suspicious men with fire-type PokÃ©mon loitering around in the evening.;T;T:REQUESTLUCI{
+;I"Luciano's Instructions;T;[i;	I"Talking with Luciano.;T;
+I"}To get aboard the SS. Seousirg, a costume and special photo ID are needed. The famous designer Sammy might be able to help...;T;T:TESTPYTH3{
+;I"The Python's Testimony;T;[i;	I"Talking with the Python.;T;
+I"XFrancis is loose somewhere in Priya's house. It's up to Mordecai to solve the case!;T;T:TESTSYL{
+;I"Sylvester's Instructions;T;[i;	I"Talking with Sylvester.;T;
+I"5Sylvester's instructions are completely useless!;T;T:TESTSHOE{
+;I"Shoe Girl's Testimony;T;[i;	I" Talking with the Shoe Girl.;T;
+I"cThe girl in the mudroom was attacked by Francis. She was hit on the head with something heavy.;T;T:TESTPURSE{
+;I"Purse Lady's Testimony;T;[i;	I"!Talking with the Purse Lady.;T;
+I"€The lady in the mudroom is using a replica purse made to look like Priya's. However, someone swapped it out for a different one.;T;T:CLUEAGENDA{
+;I"Agenda Clue;T;[i;	I"Getting scolded by Sammy.;T;
+I"MJade is not Francis in disguise because she has been with Sammy all day.;T;F:TESTJADE{
+;I"Jade's Testimony;T;[i;	I"Talking with Jade.;T;
+I"|Sammy is a tough boss. He's been worse than usual recently. As a result, Jade comes in later to avoid his bad attitude.;T;T:TESTANGEIII{
+;I"Angeline's Testimony;T;[i;	I"Talking to Angeline.;T;
+I"kSammy hasn't been sleeping well, thus the meds. His pills went missing at the theatre a few weeks ago.;T;T:TESTPRIYII{
+;I"Priya's Testimony;T;[i;	I"Talking to Priya.;T;
+I"fIt is difficult to hide in the urns at Priya's house because the heavy lids need to be pried off.;T;T:TESTPURSEII{
+;I"Purse Lady's Testimony II;T;[i;	I"!Talking with the Purse Lady.;T;
+I"iAccording to the Purse Lady, a crowbar can be used to pry up very heavy things like a manhole cover.;T;T:TESTJUNO{
+;I"Juno's Testimony;T;[i;	I""Talking to Juno as Sylvester.;T;
+I"cJuno finds Sylvane difficult to get along with. His declining health also stresses Eloise out.;T;T:TESTJUNO2{
+;I"Juno's Testimony II;T;[i;	I"!Talking to Juno as Mordecai.;T;
+I"cThe only reason Eloise and Juno haven't moved in is that Eloise needs to take care of Sylvane.;T;T:TESTBRUNO{
+;I"Bruno's Testimony;T;[i;	I""Talking to Bruno as Mordecai.;T;
+I"_Bruno doesn't mind Eloise. But, he finds the many Lafayettes to be confusing and annoying.;T;T:TESTBRUTUS{
+;I"Brutus' Testimony;T;[i;	I"Confronting Brutus.;T;
+I"KBrutus doesn't like Eloise, Sylvane, or any Lafayette for that matter.;T;T:TESTSYLVANE{
+;I"Sylvane's Testimony;T;[i;	I"Talking with Sylvane.;T;
+I"SSylvane doesn't trust the Lonardos. He believes they killed Eloise's Rockruff.;T;T:TESTELOISE{
+;I"Eloise's Testimony;T;[i;	I"$Talking to Eloise as Sylvester.;T;
+I"YRockruff wasn't Eloise's PokÃ©mon. It belonged to Sylvane. He doesn't remember this.;T;T:AUTOPSYREPORT{
+;I"Autopsy Report;T;[i;	I"Sylvane's diagnosis.;T;
+I"RRockruff somehow wound up in the water and drowned, likely around dinnertime.;T;F:CLUEBOOK{
+;I"Book Clue;T;[i;	I"Reading in Eloise's Room.;T;
+I"5A book about caring for people with Alzheimer's.;T;F:TESTKINGSTON{
+;I"Kingston's Testimony;T;[i;	I" Sharing Stew with Kingston.;T;
+I"QByron has a way to completely disrupt the use of cell phones in the Retreat.;T;T:TESTBYRON{
+;I"Byron's Testimony;T;[i;	I"!Sharing Holographic Goulash.;T;
+I"WThere is a ghost haunting the Rococo Retreat, which is scaring away more visitors.;T;T:TESTHARTII{
+;I"Hart's Testimony I;T;[i;	I"Listening to Hart's ideas.;T;
+I"\Hart did research on the Rococo Retreat. It was build over an old Lafayette settlement.;T;T:TESTHARTIII{
+;I"Hart's Testimony II;T;[i;	I"Finding the hidden door.;T;
+I"HHart asked Byron to unlock the west bathroom for his investigation.;T;T:CLUEDOOR{
+;I"Door Clue;T;[i;	I"Finding the hidden door.;T;
+I"iThere is a hidden door in the bath. It is easy to hear others because of the thin walls and ceiling.;T;F:CLUEFLOOR{
+;I"Floor Plan;T;[i;	I"Talking to Byron.;T;
+I"(A floor plan of the Rococo Retreat.;T;F:TESTSILPH{
+;I"Sylvester's Reasoning;T;[i;	I"Summoning NicodÃ¨me.;T;
+I"tThe ghost is a blatant fake. The Silph Scope app will not work so long as Byron's phone disruptor is turned on.;T;T:TESTKINGSTONII{
+;I"Kingston's Testimony II;T;[i;	I"Talking with Kingston.;T;
+I"{The ghost appears in the evenings, and always at the same place in the bedroom. It sometimes speaks in a hoarse voice.;T;T:TESTPUNKGUY{
+;I"Punk Guy's Testimony;T;[i;	I"Talking with the Punk Guy.;T;
+I"GThe Punk Guy has disagreements with Byron over his scream-o music.;T;T:TESTPUNKGIRL{
+;I"Punk Girl's Testimony;T;[i;	I"Confronting the Punk Girl.;T;
+I"OThe others have problems with Byron, but, Kingston doesn't argue with him.;T;T:TESTCORDII{
+;I"Cordelia's Reasoning;T;[i;	I"Talking with Cordelia.;T;
+I"OCordelia believes that the Arturo might know where Fearow's PokÃ© Ball is.;T;T:TESTROSEWELL{
+;I"Rosewell's Reasoning;T;[i;	I"Talking with Rosewell.;T;
+I"aRosewell believes that the Lonardos may have Fearow's PokÃ© Ball. Luciano could verify this.;T;T:TESTLUCIII{
+;I"Luciano's Testimony;T;[i;	I"Talking with Luciano.;T;
+I"oThe Lonardos never had Fearow's PokÃ© Ball. Looking into a custom PokÃ© Ball maker might offer some leads.;T;T:CLUECOURIER{
+;I"Courier Clue;T;[ii;	I"Exploring the Safehouse.;T;
+I"<A list of Bolt Courier's delivery clients for that day.;T;F:TESTARTURO{
+;I"Arturo's Testimony;T;[i;	I"Chatting with Arturo.;T;
+I"[The Flores family would commission an artisan called Patterson for custom PokÃ© Balls.;T;T:CLUELIST{
+;I"List Clue;T;[ii;	I"Searching PressÃ© CafÃ©.;T;
+I"DA list of businesses and people, one of which is Bolt Couriers.;T;F:TESTAPPREN{
+;I"Apprentice's Testimony;T;[ii;	I""Chatting with the Apprentice.;T;
+I"8Patterson sometimes delivers PokÃ© Balls in person.;T;T:TESTDESK{
+;I"Desk Dude's Testimony;T;[ii;	I"Talking to Desk Dude.;T;
+I"TDelivery times are slow at Bolt Couriers because the main courier went missing.;T;T:CLUEAPRON{
+;I"Apron Clue;T;[ii;	I"Talking to Desk Dude.;T;
+I"qThe standard Bolt Courier uniform. It is reflective, so air traffic can see the delivery service in the sky.;T;F:TESTDESKII{
+;I"Desk Dude's Testimony II;T;[i;	I"Cross Examination.;T;
+I"FDesk Dude went to the back of the shop when Mordecai was present.;T;T:CONFDESK{
+;I"Desk Dude's Confession;T;[i;	I"Cross Examination.;T;
+I"ZMordecai helped deliver packages. One of which was a cake, to the PokÃ© Ball factory.;T;T:TESTCLEAN{
+;I"Cleaner's Testimony;T;[i;	I"Hiring a Cleaner.;T;
+I"AThere are no signs in the factory that Patterson died there.;T;T:CLUECARD{
+;I"Half Birthday Card;T;[i;	I"Searching with Tiramisu.;T;
+I"DA birthday card for Patterson's granddaughter's 8.5th birthday.;T;F:CONFAPPREN{
+;I"Apprentice's Confession;T;[i;	I"Cross Examination.;T;
+I"@Mordecai was nice to the store apprentice, not threatening.;T;T:TESTCHIEF{
+;I"Chief Valconi's Testimony;T;[i;	I"Cross Examination.;T;
+I":Mordecai did not have his Zapdos upon being arrested.;T;T:REQKIDDO{
+;I"Kiddo's Request;T;[i;	I"Talking with a Kiddo.;T;
+I"[The guard at the Ellsemere Alley Clubhouse stole the kid's necklace. He wants it back.;T;T:TESTPATT{
+;I"Patterson's Testimony;T;[i;	I"Finding Patterson.;T;
+I"MZapdos saved Patterson mid-fall. It won't let him leave the Woodsy Path.;T;T:CLUEPOST{
+;I"Postcard Clue;T;[i;	I"Reading Luciano's Papers.;T;
+I"SA postcard from Lustrous and Adamant to Luciano, dated prior to his defection.;T;F:TESTJUNOIII{
+;I"Juno's Testimony;T;[i;	I"Talking to Juno.;T;
+I"lAfter collection day, the Lonardos usually would go to Garbordor's Grotto Pawn Shop in the Underground.;T;T:TESTLUCIIV{
+;I"Luciano's Testimony;T;[i;	I"Talking with Luciano.;T;
+I"ILustrous adores weapons, and more or less anything that causes pain.;T;T:TESTELOISEII{
+;I"Eloise's Testimony;T;[i;	I"$Talking to Eloise as Sylvester.;T;
+I"fLustrous, under her username xXPalkiaLoverXx, posted a video of Sylvester jumping into the river.;T;T:TESTADAM{
+;I"Adamant's Hint;T;[i;	I"Asking Adamant for help.;T;
+I"XIf Lustrous is playing games, you can tell a pirate joke and she'll always respond.;T;T:IDEASYL{
+;I"Sylvester's Idea;T;[i;	I"Trying to think ahead.;T;
+I"iLustrous might be somewhere around the Fogdale Sendoff. There's a bank and pirate-themed restaurant.;T;T:TESTDAME{
+;I"Dame Erica's Testimony;T;[i;	I"Getting lectured at.;T;
+I"WThe Dame saw Kalvin wandering around last night, while she was leaving the lounge.;T;T:CLUEPUTTY{
+;I"Putty Clue;T;[i;	I"Opening Kalvin's Safe.;T;
+I"dA ball of putty with a variety of functions. It can retain the shape of things pressed into it.;T;T:TESTJUNOIV{
+;I"Juno's Testimony;T;[i;	I"Speaking to Juno.;T;
+I"!Kalvin is afraid of Luciano.;T;T:TESTKALVIN{
+;I"Kalvin's Testimony;T;[i;	I"!Having Juno speak to Kalvin.;T;
+I"mThe reason Kalvin was wandering around at night is because he heard something outside his room and fled.;T;T:CLUEWINDOW{
+;I"Window Clue;T;[i;	I"Opening Kalvin's Safe.;T;
+I"7The port window in Kalvin's room is slightly ajar.;T;T:TESTJULIO{
+;I"Julio's Testimony;T;[i;	I"Educating Julio.;T;
+I"OJulio and three others played cards all night. Kalvin was not one of them.;T;T:TESTALICE{
+;I"Alice's Testimony;T;[ii;	I"Speaking to Alice.;T;
+I"wKalvin isn't a good thief. Alice covered this up for him so he wouldn't get in trouble with the Lonardo superiors.;T;T:TESTCORA{
+;I"Cora's Testimony;T;[i;	I"Speaking to Alice.;T;
+I"ICora snuck out to play cards, late at night with the other children.;T;T:TESTALICE2{
+;I"Alice's Testimony II;T;[i;	I"Speaking to Alice.;T;
+I"ABoth Henry and Kalvin are missing. Alice wants to find them.;T;T:TESTROSE{
+;I"Rose's Testimony;T;[i;	I"Speaking to Lucy.;T;
+I"|Rose kept watch in the bedroom last night. Henry and Kalvin were both in bed, and didn't leave until the early morning.;T;T:TESTLUCY{
+;I"Lucy's Testimony;T;[i;	I"Speaking to Lucy.;T;
+I"lKalvin confessed he hasn't stolen anything to Lucy. It happened on the Inn balcony just before bedtime.;T;T:CLUEGLASSES{
+;I"Glasses Clue;T;[i;	I"Truffles Investigating.;T;
+I";Kalvin's glasses. They were tucked underneath his bed.;T;T:TESTANO{
+;I"Ano's Testimony;T;[i;	I"Speaking to Ano.;T;
+I"BHenry was hanging out in the alley beside the Inn last night.;T;T:CLUEWATER{
+;I"Water Clue;T;[i;	I"#Palladium's Maternal Instinct.;T;
+I"bThe water levels have a higher than normal Geiger count. This is allegedly not a health risk.;T;T:CLUEBRICK{
+;I"Brick Clue;T;[i;	I"Exploring with Cobalt.;T;
+I"pCobalt found a strange brick in the temple water. It is slightly radioactive, but supposedly not dangerous.;T;T:TESTZIRC{
+;I"Zirconium's Hypothesis;T;[i;	I"Exploring with Zirconium.;T;
+I"FThe hidden cavern was being used to grow food and store supplies.;T;T:TESTPALL{
+;I"Palladium's Advice;T;[i;	I"Talking to Palladium.;T;
+I"FRiding together is a sign of respect between people and PokÃ©mon.;T;T:TESTPALLII{
+;I"Palladium's Testimony;T;[ii;	I"Talking to Palladium.;T;
+I"sThe strange bricks are PokÃ©mon from another dimension! Stakataka! Only a strong trainer can ride and tame it.;T;T:CLUETILE{
+;I"Mural Clue;T;[i;	I"Exploring with Zirconium.;T;
+I"_A mural of a person standing on a stack of bricks with eyes. It was in the storage cavern.;T;F:CLUEOBJECT{
+;I"Unknowable Object;T;[i;	I" Exploring the Morove Wilds.;T;
+I"„It shines from every angle, yet it seems to have no recognizable sides or dimensions. It has the same radiation level as the bricks.;T;T:BOLTCUTTERS{
+;I"Bolt Cutters;T;[i;	I"Investigating the locker.;T;
+I"QA decent-sized pair of bolt cutters. Handy for your average break-and-entry.;T;T:HEDGECLIPPERS{
+;I"Hedge Clippers;T;[i;	I"Exploring the Office.;T;
+I"=A decent-sized pair of hedge clippers. Currently bloody.;T;T:SERENITYLETTER{
+;I"Serenity Letter;T;[i;	I"Exploring the Office.;T;
+I"WA letter from Serenity Inc. to Iodine, warning him not to have any more incidents.;T;F:TESTJANITOR{
+;I"Janitor's Testimony;T;[i;	I"Speaking with the Janitor.;T;
+I"RThe Janitor has helped Hart and the protest leader gain access to the school.;T;T:TESTJANITORII{
+;I"Janitor's Testimony II;T;[i;	I"Speaking with the Janitor.;T;
+I"^The Janitor owns the hedge clippers but not the bolt cutters. The clippers are very dull.;T;T:GRADPHOTO{
+;I"Graduation Photo;T;[i;	I"Exploring the Library.;T;
+I"OThe photo of Leonardo's graduating class. Taken in the principal's office.;T;F:TESTLEO{
+;I"Leonardo's Testimony;T;[i;	I"Talking to Leonardo.;T;
+I"tThe Serenity Letter is a clear forgery. Leonardo can tell because he's well-versed in making forgeries himself.;T;T:TESTLEADER{
+;I"Leader's Testimony;T;[i;	I"Confronting the Leader.;T;
+I"[The leader was inside the school recently. He was having a meeting with the principal.;T;T:TESTHENRY{
+;I"Henry's Testimony;T;[i;	I"Talking to Henry.;T;
+I"]Hart has been lurking around the school. Probably trying to solve the case first, again.;T;T:BODYCLUE{
+;I"Fake Body;T;[i;	I"Exploring the yard.;T;
+I"OA taxidermy Bidoof head. Quite clearly not the alleged victim of the case.;T;T:GOSSIPPLANNER{
+;I"Party Planner's Gossip;T;[i;	I"!Chatting with Party Planner.;T;
+I"`Bolt Couriers cannot be trusted! They turned the Party Planner's cake delivery upside-down!;T;T:GOSSIPANGE{
+;I"Angeline's Gossip;T;[i;	I"Chatting with Angeline.;T;
+I";Louis Rosewell is planning to run for mayor next year.;T;T:GOSSIPSEAN{
+;I"Sean's Gossip;T;[i;	I"Finding Sean.;T;
+I"fThe Riverview Hotel is selling, soon, because of all the trouble it's encountered this past year.;T;T:GOSSIPSYLVIA{
+;I"Sylvia's Gossip;T;[i;	I"Gossipping with Sylvia.;T;
+I"nMaisy and Syl's mom got into a major fight. Maisy wanted Syl to leave the city indefinitely with his mom.;T;T:GOSSIPPUNK{
+;I"Johnny's Gossip;T;[i;	I"Gossipping with Johnny.;T;
+I"oJohnny's family is connected to Serenity Inc. His grandfather is Iodine, principal of Blackthorne Academy.;T;T:GOSSIPKING{
+;I"Kingston's Gossip;T;[i;	I"Gossipping with Kingston.;T;
+I"aKingston met Johnny at the Rococo Retreat, an exclusive and expensive getaway on Mt. Trebel.;T;T:INTELLUCH{
+;I"Luciano's Intel;T;[i;	I"Speaking with Luciano.;T;
+I"ŒRaphael put Luciano in charge of organizing a meeting at the Riverview Hotel. Luciano booked the room, and decided who would be on security.;T;T:CLUEBILL{
+;I"Hotel Bill;T;[i;	I"Clearing Raphael's desk.;T;
+I"€An outrageous bill from the Riverview Hotel. Who has the audacity to charge for the stay of someone who died on their premises?!;T;T:CLUECELLPHONE{
+;I"Smokey's Cell;T;[i;	I""Poking around Smokey's Condo.;T;
+I"†A phone that belonged to the late Smokey. Kalvin used it to call for help. What information could it contain, and who could unlock it?;T;T:CLUETEXT{
+;I"Smokey's Textlog;T;[i;	I"Unlocking Smokey's Cell.;T;
+I"„A log of texts between Smokey and his boss, Raphael... The last text from Raphael commands Smokey to stand guard in the hotel lobby.;T;T:INTELROSE{
+;I"Rosewell's Intel;T;[i;	I"Talking with Rosewell.;T;
+I"aRosewell insists he didn't kill Raphael, because that would be bad for his mayoral campaign.;T;T:INTELROSEII{
+;I"Rosewell's Intel II;T;[i;	I"Talking with Rosewell.;T;
+I"tRosewell insists that Raphael sent him an invitation to meet at the hotel. They discussed the Lafayette family.;T;T:INTELROSEIII{
+;I"Rosewell's Intel III;T;[i;	I"Talking with Rosewell.;T;
+I"ZRosewell seems to care about his daughter quite a bit. That could be useful, later...;T;T:INTELADAM{
+;I"Adamant's Intel;T;[i;	I"Saying goodbye to Adamant.;T;
+I"ƒWhoever killed Raphael would have to be supremely confident in never getting caught. The consequences would be too dire, otherwise.;T;T:INTELWAIT{
+;I"Waitress' Intel;T;[i;	I"%Questioning the blonde waitress.;T;
+I"NThe waitress was at work when the guest was killed in the room above her.;T;T:INTELCON{
+;I"Concierge's Intel;T;[i;	I" Intimidating the concierge.;T;
+I"eRaphael ordered the most expensive drink the hotel had to offer while on his way up to the room.;T;T:LUELIST{
+;I"Lue's List;T;[i;	I" Being cornered by Rosewell.;T;
+I"zRosewell has a list of different properties to investigate. Figure out which one is suitable to house the thief kids.;T;T:LUELISTII{
+;I"Lue's Amended List;T;[i;	I"Being called by Rosewell.;T;
+I"@Rosewell corrected some of the locations added on the list.;T;T:TESTARGO{
+;I"Argon's Testimony;T;[i7;	I"Speaking to Argon.;T;
+I"JArgon cannot open the bedrooms, but the head of security, Radon, can.;T;T:CLUENEON{
+;I"Neon's Identity;T;[i7;	I"Speaking to Argon.;T;
+I"^Neon refers to both Allan, fiancÃ© of Ivy, as well as the new scientist who lost his arm.;T;T:TESTRADO{
+;I"Radon's Testimony;T;[i7;	I"Speaking to Radon.;T;
+I"KAccording to Radon, no one can Teleport into the lab from the surface.;T;T:CLUESUB{
+;I"Submarine Clue;T;[i7;	I"Speaking to Argon.;T;
+I"TAccording to Argon, the only way to get in and out of the lab is via submarine.;T;T:TESTHELI{
+;I"Helium's Testimony;T;[i7;	I"Speaking to Helium.;T;
+I"iHelium was in the Greenhouse Storage when there was a power surge, and she was attacked in the dark.;T;T:CLUEOUTLINE{
+;I"Body Outline;T;[i8;	I"Inspecting outline.;T;
+I"CThe outline of a Victini's body. The victim was stabbed twice.;T;T:CLUEKNIFE{
+;I"Knife Clue;T;[i8;	I"Inspecting trash.;T;
+I"4There was a bloody knife left in the trash can.;T;T:TESTDEWO{
+;I"Dewott's Testimony;T;[i8;	I"Speaking to Dewott.;T;
+I"Dew dew dew! Wott!;T;T

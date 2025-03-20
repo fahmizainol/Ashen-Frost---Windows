@@ -1,0 +1,4 @@
+Name = Marin's Scripting Utilities
+Version = 2.0
+Website = https://reliccastle.com/resources/165/
+Credits =Marin

@@ -1,0 +1,4 @@
+Name = Auto Multi Save
+Version = 1.2
+Requires = v20.1 Hotfixes,1.0.5
+Credits =http404error

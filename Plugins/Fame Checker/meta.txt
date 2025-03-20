@@ -1,0 +1,4 @@
+Name = Fame Checker
+Version = 2.1.1
+Website = https://github.com/domx9200/FameChecker
+Credits =domx9200

@@ -1,0 +1,3 @@
+Name = Better Move Tutor by Sonicover
+Version = 2.0.0
+Credits =Sonicover

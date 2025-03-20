@@ -1,0 +1,6 @@
+Name = Enhanced UI
+Version = 1.1.2
+Website = https://www.pokecommunity.com/showthread.php?t=478509
+Optional = Essentials Deluxe,1.2.5
+Optional = FL's Controls Menu,1.0.0
+Credits =Lucidious89,Ball Sprites: Poq and BlueEye007

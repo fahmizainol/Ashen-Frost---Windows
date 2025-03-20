@@ -1,0 +1,4 @@
+Name = Difficulty Modes
+Version = 29.0
+Website = https://github.com/FL-/Essentials-DifficultyModes
+Credits =FL

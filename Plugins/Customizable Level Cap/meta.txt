@@ -1,0 +1,4 @@
+Name = Customizable Level Cap
+Version = 1.0.3
+Website = https://reliccastle.com/members/7217/
+Credits =Phantombass

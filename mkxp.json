@@ -1,0 +1,22 @@
+{
+  "defScreenW": 512,
+  "defScreenH": 384,
+  "pathCache": true,
+  "patches": ["patch"],
+  "bindingNames": {
+    "c": "Action",
+    "b": "Back / Run",
+    "a": "Menu / Mega",
+    "x": "Page Up / T. Log",
+    "y": "Page Down",
+    "z": "Key Item / Shift",
+    "l": "Speed-Up",
+    "r": "Quick Save",
+    "d": "Move Info",
+    "e": "Battle Info",
+    "f": "Skip Text"
+  },
+  "inputRepeatStart": 0.3,
+  "inputRepeatDelay": 0.05
+}
+

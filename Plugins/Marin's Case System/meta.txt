@@ -1,0 +1,7 @@
+Name = Marin's Case System
+Version = 1.0
+Website = https://reliccastle.com/resources/182/
+Requires = v20.1 Hotfixes,1.0.7
+Requires = Marin's Scripting Utilities,2.0
+Requires = Essentials Deluxe,1.2.7
+Credits =Marin

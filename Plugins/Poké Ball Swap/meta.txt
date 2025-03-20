@@ -1,0 +1,4 @@
+Name = Poké Ball Swap
+Version = 1.0
+Website = https://reliccastle.com/resources/817/
+Credits =TechSkylander1518

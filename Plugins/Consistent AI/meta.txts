@@ -1,0 +1,6 @@
+Name = Consistent AI
+Version = 1.0.1
+Requires = v20.1 Hotfixes,1.0.7
+Optional = Improved AI,1.0
+Optional = Generation 9 Pack,1.0
+Credits =DemICE,Azery(Recovery and EndOfTurnEffects code),Marcello(Priority code)

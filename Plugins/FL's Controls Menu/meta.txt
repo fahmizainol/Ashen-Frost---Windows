@@ -1,0 +1,4 @@
+Name = FL's Controls Menu
+Version = 1.0.0
+Website = https://github.com/FL-/Essentials-SetControls
+Credits =FL

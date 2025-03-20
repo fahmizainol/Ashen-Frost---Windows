@@ -1,0 +1,4 @@
+Name = Updated Quicksave
+Version = 1.0
+Website = https://reliccastle.com/resources/1091/
+Credits =Marin,CrystalStar

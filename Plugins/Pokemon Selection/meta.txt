@@ -1,0 +1,4 @@
+Name = Pokemon Selection
+Version = 29.0
+Website = https://github.com/FL-/Essentials-Selection
+Credits =FL

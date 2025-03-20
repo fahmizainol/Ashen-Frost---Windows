@@ -1,0 +1,4 @@
+Name = Modern Quest System + UI
+Version = 1.0.2
+Website = https://reliccastle.com/resources/709/
+Credits =ThatWelshOne_,mej71,derFischae,Marin

@@ -1,0 +1,3 @@
+Name = Tip Cards
+Version = 1.2
+Credits =wrigty12

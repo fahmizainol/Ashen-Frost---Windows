@@ -1,0 +1,4 @@
+Name = Ocarina
+Version = 1.0
+Website = https://newpokeliberty.blogspot.com/2017/05/scripts-script-de-combinaciones-de.html
+Credits =Polectron

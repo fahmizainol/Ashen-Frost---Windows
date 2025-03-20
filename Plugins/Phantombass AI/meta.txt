@@ -1,0 +1,5 @@
+Name = Phantombass AI
+Version = 1.0
+Website = https://reliccastle.com/members/7217/
+Requires = Generation 9 Pack
+Credits =Phantombass,adapted from an AI made by Marin

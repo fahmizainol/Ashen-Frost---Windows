@@ -1,0 +1,4 @@
+Name = Roaming Icons in Map
+Version = 1.1.2
+Website = https://github.com/FL-/Essentials-RoamingIcon
+Credits =FL

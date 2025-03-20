@@ -1,0 +1,5 @@
+Name = Tutor.net
+Version = 1.1
+Website = https://reliccastle.com/resources/1237/
+Optional = Tip Cards,1.2
+Credits =DemICE
