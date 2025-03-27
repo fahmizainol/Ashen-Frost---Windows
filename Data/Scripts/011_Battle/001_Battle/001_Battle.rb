@@ -99,6 +99,7 @@ class Battle
   # Creating the battle class
   #=============================================================================
   def initialize(scene, p1, p2, player, opponent)
+    # print(p1.inspect)
     if p1.length == 0
       raise ArgumentError.new(_INTL("Party 1 has no Pokémon."))
     elsif p2.length == 0
@@ -107,6 +108,7 @@ class Battle
     @scene             = scene
     @peer              = Peer.new
     @battleAI          = AI.new(self)
+    # @battleAI          = PokeBattle_AI.new(self)
     @field             = ActiveField.new    # Whole field (gravity/rooms)
     @sides             = [ActiveSide.new,   # Player's side
                           ActiveSide.new]   # Foe's side
@@ -184,6 +186,7 @@ class Battle
     @mega_rings = []
     GameData::Item.each { |item| @mega_rings.push(item.id) if item.has_flag?("MegaRing") }
     @foreground        = ""
+    # print @party
   end
 
   #=============================================================================
@@ -459,6 +462,7 @@ class Battle
   end
 
   def allBattlers
+    @battlers.each { |b| next if b.fainted? }
     return @battlers.select { |b| b && !b.fainted? }
   end
 

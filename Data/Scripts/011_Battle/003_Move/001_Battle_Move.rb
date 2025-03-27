@@ -17,6 +17,7 @@ class Battle::Move
   attr_accessor :calcType
   attr_accessor :powerBoost
   attr_accessor :snatched
+  attr_accessor :move # kny
 
   def to_int; return @id; end
 
@@ -26,6 +27,7 @@ class Battle::Move
   def initialize(battle, move)
     @battle     = battle
     @realMove   = move
+    @move = @realMove
     @id         = move.id
     @name       = move.name   # Get the move's name
     # Get data on the move
@@ -43,6 +45,27 @@ class Battle::Move
     @powerBoost = false   # For Aerilate, Pixilate, Refrigerate, Galvanize
     @snatched   = false
   end
+
+  # def initialize(move)
+  #   @realMove   = move
+  #   @move = @realMove
+  #   @id         = move.id
+  #   @name       = move.name   # Get the move's name
+  #   # Get data on the move
+  #   @function   = move.function_code
+  #   @baseDamage = move.base_damage
+  #   @type       = move.type
+  #   @category   = move.category
+  #   @accuracy   = move.accuracy
+  #   @pp         = move.pp   # Can be changed with Mimic/Transform
+  #   @addlEffect = move.effect_chance
+  #   @target     = move.target
+  #   @priority   = move.priority
+  #   @flags      = move.flags.clone
+  #   @calcType   = nil
+  #   @powerBoost = false   # For Aerilate, Pixilate, Refrigerate, Galvanize
+  #   @snatched   = false
+  # end
 
   # This is the code actually used to generate a Battle::Move object. The
   # object generated is a subclass of this one which depends on the move's

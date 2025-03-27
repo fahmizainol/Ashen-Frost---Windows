@@ -104,11 +104,16 @@ class Pokemon
     GameData::Species.play_cry_from_pokemon(self, volume, pitch)
   end
 
-  def inspect
-    str = super.chop
-    str << sprintf(" %s Lv.%s>", @species, @level.to_s || "???")
-    return str
-  end
+  # def inspect
+  #   str = super.chop
+  #   str << sprintf(" %s Lv.%s>", @species, @level.to_s, || "???")
+  #   return str
+  # end
+  # def inspect
+  #   instance_variables.each do |var|
+  #     puts "#{var}: #{instance_variable_get(var)}"
+  #   end
+  # end
 
   def species_data
     return GameData::Species.get_species_form(@species, form_simple)

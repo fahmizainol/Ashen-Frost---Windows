@@ -273,6 +273,7 @@ class PBAI
     return rand(x)
   end
 
+  # processAIturn in rejuv?
   def pbDefaultChooseEnemyCommand(idxBattler)
     sideIndex = idxBattler % 2
     index = PBAI.battler_to_proj_index(idxBattler)

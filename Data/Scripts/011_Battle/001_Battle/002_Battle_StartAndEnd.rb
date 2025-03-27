@@ -115,6 +115,9 @@ class Battle
     pbClearChoice(idxBattler)
     @successStates[idxBattler] = SuccessState.new
     @battlers[idxBattler].pbInitialize(pkmn, idxParty)
+    print(@battlers[idxBattler].inspect)
+    # print(@battlers.inspect)
+    # print(self)
   end
 
   def pbSetUpSides
@@ -264,6 +267,9 @@ class Battle
     else
       logMsg += "#{@sideSizes[0]}v#{@sideSizes[1]} "
     end
+    
+   
+    
     logMsg += "wild " if wildBattle?
     logMsg += "trainer " if trainerBattle?
     logMsg += "battle (#{@player.length} trainer(s) vs. "
@@ -288,6 +294,8 @@ class Battle
     # Create all the sprites and play the battle intro animation
     @scene.pbStartBattle(self)
     # Show trainers on both sides sending out Pokémon
+    # @battleAI = PokeBattle_AI.new(self) 
+    # $ai_log_data = [PokeBattle_AI_Info.new,PokeBattle_AI_Info.new,PokeBattle_AI_Info.new,PokeBattle_AI_Info.new]
     pbStartBattleSendOut(sendOuts)
     # Weather announcement
     weather_data = GameData::BattleWeather.try_get(@field.weather)
@@ -319,6 +327,7 @@ class Battle
     when :Psychic
       pbDisplay(_INTL("The battlefield is weird!"))
     end
+    
     # Abilities upon entering battle
     pbOnAllBattlersEnteringBattle
     # Main battle loop
@@ -326,7 +335,7 @@ class Battle
   end
 
   #=============================================================================
-  # Main battle loop
+  # Main battle loop IMPORTANT
   #=============================================================================
   def pbBattleLoop
     @turnCount = 0

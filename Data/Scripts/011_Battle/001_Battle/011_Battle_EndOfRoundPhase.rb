@@ -677,7 +677,7 @@ class Battle
   end
 
   #=============================================================================
-  # Main End Of Round phase method
+  # Main End Of Round phase method #IMPORTANT
   #=============================================================================
   def pbEndOfRoundPhase
     PBDebug.log("")

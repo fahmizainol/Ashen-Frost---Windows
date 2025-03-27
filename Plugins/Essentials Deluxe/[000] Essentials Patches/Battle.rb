@@ -372,6 +372,7 @@ end
 #-------------------------------------------------------------------------------
 class Battle::AI
   def pbDefaultChooseEnemyCommand(idxBattler)
+    print("essential")
     return if pbEnemyShouldUseItem?(idxBattler)
     return if pbEnemyShouldWithdraw?(idxBattler)
     return if @battle.pbAutoFightMenu(idxBattler)

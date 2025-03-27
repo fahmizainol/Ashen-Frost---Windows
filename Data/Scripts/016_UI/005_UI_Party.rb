@@ -1300,6 +1300,8 @@ class PokemonPartyScreen
   end
 end
 
+
+
 #===============================================================================
 # Party screen menu commands.
 # Note that field moves are inserted into the list of commands after the first
@@ -1320,7 +1322,7 @@ MenuHandlers.add(:party_menu, :summary, {
 MenuHandlers.add(:party_menu, :debug, {
   "name"      => _INTL("Debug"),
   "order"     => 20,
-  "condition" => proc { |screen, party, party_idx| next $DEBUG },
+  # "condition" => proc { |screen, party, party_idx|},
   "effect"    => proc { |screen, party, party_idx|
     screen.pbPokemonDebug(party[party_idx], party_idx)
   }

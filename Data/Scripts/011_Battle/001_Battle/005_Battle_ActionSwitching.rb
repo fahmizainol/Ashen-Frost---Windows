@@ -286,6 +286,8 @@ class Battle
   # Called from def pbReplace above and at the start of battle.
   # sendOuts is an array; each element is itself an array: [idxBattler,pkmn]
   def pbSendOut(sendOuts, startBattle = false)
+    # @battleAI.addMonToMemory(sendOuts[0][1],sendOuts[0][0])
+
     sendOuts.each { |b| @peer.pbOnEnteringBattle(self, @battlers[b[0]], b[1]) }
     @scene.pbSendOutBattlers(sendOuts, startBattle)
     sendOuts.each do |b|

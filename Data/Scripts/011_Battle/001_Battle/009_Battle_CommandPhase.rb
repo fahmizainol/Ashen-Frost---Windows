@@ -176,7 +176,7 @@ class Battle
   end
 
   #=============================================================================
-  # Command phase
+  # Command phase IMPORTANT
   #=============================================================================
   def pbCommandPhase
     @scene.pbBeginCommandPhase
@@ -226,6 +226,8 @@ class Battle
         end
         case cmd
         when 0    # Fight
+          # print(@battlers[idxBattler].pokemon.inspect)
+
           break if pbFightMenu(idxBattler)
         when 1    # Bag
           if pbItemMenu(idxBattler, actioned.length == 1)

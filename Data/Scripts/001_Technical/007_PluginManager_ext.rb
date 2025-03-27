@@ -19,7 +19,6 @@ module PluginManager
     
     def self.runPlugins
         if RUN_DECOMPILED
-            print("decompiled")
             # get the order of plugins to interpret
             order, plugins = self.getPluginOrder
             scripts = self.getPlugins(order, plugins)

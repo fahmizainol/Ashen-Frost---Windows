@@ -577,6 +577,8 @@ class Battle::AI
         damage += damage * 0.1 * c
       end
     end
+    print("580")
+    print(damage)
     return damage.floor
   end
 

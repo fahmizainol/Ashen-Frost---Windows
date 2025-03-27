@@ -2,11 +2,20 @@
 # class Object
 #===============================================================================
 class Object
-  alias full_inspect inspect unless method_defined?(:full_inspect)
+  # alias full_inspect inspect unless method_defined?(:full_inspect)
 
-  def inspect
-    return "#<#{self.class}>"
-  end
+  # def inspect
+  #   return self
+  # end
+  # def inspect
+  #   str="{"
+  #   for i in 0...@keys.length
+  #     str+=", " if i>0
+  #     str+=@keys[i].inspect+"=>"+self[@keys[i]].inspect
+  #   end
+  #   str+="}"
+  #   return str
+  # end
 end
 
 #===============================================================================

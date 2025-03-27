@@ -3028,6 +3028,8 @@ class Battle
 				# DemICE moved the AI decision after player decision.
 				# AI controls this battler
 				@battleAI.pbDefaultChooseEnemyCommand(idxBattler)
+				print "3031"
+				print(@battlers[0].pokemon)
 			end 
 			break if commandsEnd
 		end

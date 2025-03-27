@@ -98,7 +98,7 @@ module GameData
 
     # Creates a battle-ready version of a trainer's data.
     # @return [Array] all information about a trainer in a usable form
-    def to_trainer
+    def to_trainer # IMPORTANT
       # Determine trainer's name
       tr_name = self.name
       Settings::RIVAL_NAMES.each do |rival|
@@ -112,21 +112,33 @@ module GameData
       trainer.items     = @items.clone
       trainer.lose_text = self.lose_text
       # Create each Pokémon owned by the trainer
+      party = []
       @pokemon.each do |pkmn_data|
         species = GameData::Species.get(pkmn_data[:species]).species
         pkmn = Pokemon.new(species, pkmn_data[:level], trainer, false)
-        trainer.party.push(pkmn)
+        # trainer.party.push(pkmn)
         # Set Pokémon's properties if defined
         if pkmn_data[:form]
           pkmn.forced_form = pkmn_data[:form] if MultipleForms.hasFunction?(species, "getForm")
           pkmn.form_simple = pkmn_data[:form]
         end
         pkmn.item = pkmn_data[:item]
-        if pkmn_data[:moves] && pkmn_data[:moves].length > 0
-          pkmn_data[:moves].each { |move| pkmn.learn_move(move) }
+        if pkmn_data[:moves]
+          k=0
+          for move in pkmn_data[:moves]
+            next if move.nil?
+            # pkmn.moves[k]=PBMove.new(move)
+            pkmn.moves[k]=Pokemon::Move.new(move)
+            k+=1
+          end
         else
-          pkmn.reset_moves
+          pkmn.resetMoves
         end
+        # if pkmn_data[:moves] && pkmn_data[:moves].length > 0
+        #   pkmn_data[:moves].each { |move| pkmn.moves }
+        # else
+        #   pkmn.reset_moves  
+        # end
         pkmn.ability_index = pkmn_data[:ability_index] || 0
         pkmn.ability = pkmn_data[:ability]
         pkmn.gender = pkmn_data[:gender] || ((trainer.male?) ? 0 : 1)
@@ -161,6 +173,11 @@ module GameData
         end
         pkmn.poke_ball = pkmn_data[:poke_ball] if pkmn_data[:poke_ball]
         pkmn.calc_stats
+        trainer.party.push(pkmn)
+        party.push(pkmn)
+        # print(pkmn.moves[0].name)
+        # print(party[0].moves[0].move)
+
       end
       return trainer
     end

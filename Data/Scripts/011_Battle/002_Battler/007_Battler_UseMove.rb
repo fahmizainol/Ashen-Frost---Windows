@@ -153,7 +153,7 @@ class Battle::Battler
   end
 
   #=============================================================================
-  # Master "use move" method
+  # Master "use move" method #IMPORTANT
   #=============================================================================
   def pbUseMove(choice, specialUsage = false)
     # NOTE: This is intentionally determined before a multi-turn attack can
@@ -632,9 +632,11 @@ class Battle::Battler
         # pbCalcDamage shows the "eat berry" animation for SE-weakening
         # berries, although the message about it comes after the additional
         # effect below
-        move.pbCalcDamage(user, b, targets.length)   # Stored in damageState.calcDamage
+        move.pbCalcDamage(user, b, targets.length)   # Stored in damageState.calcDamage IMPORTANT
         # Lessen damage dealt because of False Swipe/Endure/etc.
         move.pbReduceDamage(user, b)   # Stored in damageState.hpLost
+        # print(b.damageState.hpLost)
+        # print(b.damageState.totalHPLost)
       end
     end
     # Show move animation (for this hit)
