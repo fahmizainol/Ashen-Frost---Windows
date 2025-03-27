@@ -115,7 +115,7 @@ class Battle
     pbClearChoice(idxBattler)
     @successStates[idxBattler] = SuccessState.new
     @battlers[idxBattler].pbInitialize(pkmn, idxParty)
-    print(@battlers[idxBattler].inspect)
+    PBDebug.log(@battlers[idxBattler].inspect)
     # print(@battlers.inspect)
     # print(self)
   end
